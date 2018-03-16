@@ -6,6 +6,9 @@ authors = ["Andrew C. Smith <andrewchristophersmith@gmail.com>"]
 [dependencies]
 sample = "0.9.1"
 hound = "3.0"
-rulinalg = "0.4.2"
+ndarray = { version = "0.11", features = ["serde-1"] }
+ndarray-parallel = "0.8"
+serde = "1.0"
+serde-pickle = "0.4"
 random_choice = "*"
 vox_box = { path = "../vox_box.rs" }
