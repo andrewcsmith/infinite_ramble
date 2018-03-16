@@ -1,0 +1,11 @@
+[package]
+name = "infinite_ramble"
+version = "0.1.0"
+authors = ["Andrew C. Smith <andrewchristophersmith@gmail.com>"]
+
+[dependencies]
+sample = "0.9.1"
+hound = "3.0"
+rulinalg = "0.4.2"
+random_choice = "*"
+vox_box = { path = "../vox_box.rs" }
